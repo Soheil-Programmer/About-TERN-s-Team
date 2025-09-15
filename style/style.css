@@ -11,21 +11,30 @@ header {
     width: 100%;
     background: linear-gradient(135deg, #705840 0%, #646045 100%);
     position: relative;
-    min-height: 500px;
 }
 
+#header-fixed {
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #705840 0%, #646045 100%);
+    z-index: 1000;
+
+}
 
 #menu {
-    display: flex;
-    justify-content: flex-start;
     width: 30%;
     position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
-    background-color: #fff;
-    padding: 7px 17px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
+    left: 30px;
+    top: 20px;
+
 }
 
 #menu-subject {
@@ -34,14 +43,14 @@ header {
 
 #second-side-header {
     display: flex;
-    justify-content: flex-end;
     width: 70%;
     position: fixed;
+    justify-content: flex-end;
     top: 20px;
     right: 20px;
-    z-index: 1000;
 
 }
+
 
 #left-side {
     background-color: rgb(252, 252, 252);
