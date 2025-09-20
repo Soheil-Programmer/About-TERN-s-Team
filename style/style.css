@@ -376,12 +376,12 @@ h3 {
 }
 
 #second-box{
-    position:absolute;
+    position:relative;
     font-size:20px;
     font-family:"PP Right Serif Mono Fine";
 }
 #other-channel {
-    position:relative;
+    position:absolute;
     width:90%;
     bottom:1px;
 }
